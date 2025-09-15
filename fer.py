@@ -26,7 +26,6 @@ while True:
             analysis = DeepFace.analyze(
                 img_path=frame,
                 actions=['emotion'],
-                detector_backend="mediapipe",
                 enforce_detection=False,
                 silent=True
             )
