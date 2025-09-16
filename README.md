@@ -8,15 +8,15 @@ cd explore_mer
 ```
 2. Install libraries
 ```bash
-pip install opencv-python deepface sounddevice torch transformers numpy
+pip install opencv-python numpy sounddevice torch torchaudio mediapipe deepface transformers scipy
 ```
 Note: you can use a virtual environment to not install the libraries globally
 ```bash
 python -m venv venv
 venv\Scripts\activate
-pip install opencv-python deepface sounddevice torch transformers numpy
+pip install opencv-python numpy sounddevice torch torchaudio mediapipe deepface transformers scipy
 ```
 3. Run the program
 ```bash
-python live_action_demo.py
+python exploring_mer.py
 ```
